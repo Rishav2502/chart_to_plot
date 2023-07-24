@@ -7,7 +7,7 @@ from chat2plot import chat2plot
 app = Flask(__name__)
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "sk-Rk1P9zN24BPHS0Lmfzn9T3BlbkFJAQmOAPq2Be93qqDZuGJN1"  # Replace with your actual OpenAI API key
+os.environ["OPENAI_API_KEY"] = "your api_key"  # Replace with your actual OpenAI API key
 
 #Load the excel file into a DataFrame (replace 'reduced_data1.xlsx' with your file name)
 
