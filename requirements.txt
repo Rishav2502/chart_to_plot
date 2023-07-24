@@ -1,0 +1,4 @@
+pandas~=2.0.3
+openai~=0.27.8
+Flask~=2.3.2
+chat2plot~=0.0.11
