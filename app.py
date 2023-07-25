@@ -11,7 +11,7 @@ os.environ["OPENAI_API_KEY"] = "your api_key"  # Replace with your actual OpenAI
 
 #Load the excel file into a DataFrame (replace 'reduced_data1.xlsx' with your file name)
 
-data = pd.read_excel('C:/Users/Admin/PycharmProject/chart_to_plot/forecasting2.xlsx')
+data = pd.read_excel('forecasting2.xlsx')
 
 # Initialize the chat2plot object
 c2p = chat2plot(data)
